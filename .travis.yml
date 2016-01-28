@@ -1,0 +1,11 @@
+language: c
+ 
+ 
+compiler: gcc
+
+os:
+  - windows
+
+script:
+  - gcc -o test  ./NetworkProgramming/Client/Client.c
+  - gcc -o test  ./NetworkProgramming/Server/Server.c
